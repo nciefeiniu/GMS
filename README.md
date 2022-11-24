@@ -43,7 +43,7 @@ pip install -r requirements.txt
 
 ### 2. 创建数据库，并修改数据库配置
 
-请先自行创建数据库，用你熟悉的方式！！！
+请先自行创建数据库，用你熟悉的方式！！！(注意：Mysql请使用 5.7及其以上的版本)
 
 请修改 `mycompetition/settings.py` 文件中的 76 到85行
 
