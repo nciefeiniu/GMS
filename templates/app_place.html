@@ -39,7 +39,8 @@
                             <div class="am-modal-bd">
                                 <div id="qrcode{{ garbage.id }}"></div>
                                 <script>
-                                    jQuery('#qrcode{{ garbage.id }}').qrcode("http://match.cxmgxj.cn/user/{{ garbage.id }}/");
+                                    const currentHost = window.location.host;
+                                    jQuery('#qrcode{{ garbage.id }}').qrcode(currentHost + "/user/{{ garbage.id }}/");
                                 </script>
                             </div>
                             <div class="am-modal-footer">
