@@ -41,7 +41,7 @@ class Statictics(models.Model):
 class OneStatictics(models.Model):
     """单个点位历史统计数据"""
     id = models.AutoField(primary_key=True)
-    garbage = models.ForeignKey(Garbage, verbose_name='ID', on_delete=True, default='2')
+    garbage = models.ForeignKey(Garbage, verbose_name='ID', on_delete=models.CASCADE, default='2')
     date = models.DateField(verbose_name='日期')
     class_1 = models.FloatField(verbose_name='可回收垃圾', default=0)
     class_2 = models.FloatField(verbose_name='有害垃圾', default=0)
