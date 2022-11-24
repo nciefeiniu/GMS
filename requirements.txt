@@ -1,4 +1,4 @@
 pymysql == 0.9.3
-django-apscheduler == 0.6.0
+django-apscheduler == 0.5.2
 apscheduler == 3.6.0
-Django==2.1.7
+Django==2.2.28
